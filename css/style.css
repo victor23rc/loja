@@ -1,0 +1,1752 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: url('../img/EletronicoCapa.png');
+    background-size: cover;
+    /* Padrão para adaptar ao tamanho da tela*/
+    background-position: center;
+    min-height: 480px
+        /* tamanho minimo da imagem independente do dispositivo */
+    ;
+    padding: 30px;
+
+}
+
+.container {
+    /* posição do banner */
+    max-width: 1400px;
+    padding: 0 2%;
+    margin: 0 auto;
+}
+
+.logo {
+    position: relative;
+    background-image: url('../img/Meu\ projeto.png');
+    background-size: 100% 100%;
+    /* pega o tamanho 100% da imagem nos dois eixos independente do tamanho do box */
+    width: 150px;
+    /* espaço da img do logo*/
+    height: 150px;
+    /*espaço da img logo  */
+    float: left;
+    /* direcionamento do box para a esquerda */
+    bottom: 19px;
+    /* tamanho do botão */
+}
+
+nav.desktop {
+    float: right;
+    /* direcionamento do box */
+}
+
+nav.desktop ul {
+    /*  menu superior */
+    list-style-type: none;
+    /* remove a decoração */
+    font-family: 'Saira Condensed', sans-serif;
+
+}
+
+nav.desktop li {
+    /* pai dos itens do menu superior */
+    display: inline-block;
+    /* manter aquivos na linha, utilizado no portfólio */
+    margin: 0 15px;
+    color: white;
+    font-family: 'Saira Condensed', sans-serif;
+    /* fonte desejada  */
+
+}
+
+nav.desktop li :hover ::after {
+    /* destque terminar  */
+
+    width: 100%;
+
+}
+
+
+nav li.btn-minhaConta:hover {
+    /* opçoes menu superior */
+    padding: 3px 8px;
+    border-radius: 20px;
+    border: 2px solid #FF6B1A;
+    transition: 0.4s;
+}
+
+nav li.btn-contato:hover {
+    /* opçoes menu superior */
+    padding: 3px 8px;
+    border-radius: 20px;
+    border: 2px solid #FF6B1A;
+    transition: 0.4s;
+}
+
+nav li.btn-orcamento:hover {
+    /* opçoes menu superior */
+    padding: 3px 8px;
+    border-radius: 20px;
+    border: 2px solid #FF6B1A;
+    transition: 0.4s;
+}
+
+div.chamada-mkt form {
+    /* configurações txt banner */
+    padding: 15px;
+    position: relative;
+    left: -16px;
+}
+
+div.chamada-mkt {
+    /* espaço da borda  */
+    padding: 100px 0 0 0;
+}
+
+div.chamada-mkt {
+    /* configurações txt banner */
+    font-size: 20px;
+    color: white;
+}
+
+div.chamada-mkt h2 {
+    margin-top: 50px;
+    /* em relação ao logo */
+    font-size: 40px;
+    font-family: 'Saira Condensed', sans-serif;
+    /* fonte desejada */
+
+}
+
+div.chamada-mkt p {
+    font-size: 30px;
+    /* tamnho da fonte  */
+    color: white;
+    /* cor */
+    font-family: 'Saira Condensed', sans-serif;
+    /* fonte desejada */
+}
+
+div.chamada-mkt input[type=email] {
+    /* entre"[]" para atribuição de valor, usado no input, para selecionar o valor do iput*/
+
+    width: 190px;
+    height: 30px;
+    border-radius: 100px;
+    /* raio da borda  */
+    background-color: white;
+    /* cor */
+    color: black;
+    /* Cor do texto no campo de email*/
+    padding-left: 13px;
+    /* espaçamento do placeholder */
+
+}
+
+div.chamada-mkt input[type=submit] {
+    /* botão de cadastrar, novamente utilizado imput */
+    background-color: #FF6B1A;
+    /* cor do botão */
+    border-radius: 80px;
+    /* raio da borda */
+    width: 80px;
+    height: 25px;
+    cursor: pointer;
+    /* tipo do cursor ao passar na tela */
+    border-color: black;
+    /* cor da borda */
+    position: absolute;
+    /* fixa */
+    left: 18px;
+    bottom: -18px;
+}
+
+div.chamada-mkt input[type=email]:focus {
+    /* remove a borda do campo do email quando clicado */
+    outline: 0;
+}
+
+.sessao-01 {
+    /* Inicio da primeira sessão */
+    text-align: center;
+    padding: 30px 0;
+    background-color: #FF6B1A
+}
+
+.desc-produto {
+    /* edição da descriçao */
+
+    padding: 0 15px;
+    float: left;
+    width: 50%;
+    margin: 53px;
+}
+
+.sessao-01 img {
+    /* edição da img */
+
+    width: 150%;
+    height: 150px;
+    float: left;
+    max-width: 300px;
+    position: relative;
+    top: 45px;
+    color: white;
+    border-radius: 10px;
+}
+
+.clear {
+    /* impede que elementos flutuem qebrando o cod. */
+
+    clear: both;
+
+}
+
+.NomeService p {
+
+    color: black;
+    font-size: 30px;
+    TEXT-ALIGN: CENTER;
+    MARGIN-TOP: 41PX;
+
+}
+
+
+.desc-produto h3 {
+
+    color: white;
+    font-size: 23px;
+    font-family: 'Saira Condensed', sans-serif;
+}
+
+.desc-produto p {
+    /*  trabalhando o txt da descrição */
+    margin-top: 15px;
+    color: white;
+    font-size: 17px;
+    line-height: 27px;
+    font-family: 'Saira Condensed', sans-serif;
+    /*  */
+}
+
+::-webkit-scrollbar {
+    /* largura da barra de rolagem */
+
+    width: 18px;
+}
+
+::-webkit-scrollbar-track {
+    /* cor de fundo e raio da faixa */
+
+    border-radius: 35px;
+    background-color: #E7E7E7;
+}
+
+::-webkit-scrollbar-thumb {
+    /* cor e raio do "polegar" da barra */
+    border-radius: 35px;
+    background-color: #B3B3B3;
+}
+
+.sessao-02>.container {
+    /* inicio sessao 2 */
+
+    background-image: url('../img/FDB.png');
+    background-size: cover;
+    position: relative;
+    max-width: 800px;
+    min-height: 350px;
+}
+
+.feedback {
+    /* sobreposição */
+
+    position: absolute;
+    left: 50%;
+    width: 70%;
+    background-color: rgba(0, 0, 0, 0.623);
+    top: 180px;
+    max-width: 500px;
+    min-height: 200px;
+    left: 260px;
+    box-shadow: 0 9px 20px 0 rgba(17, 17, 17, 0.943);
+    border-radius: 10px;
+
+}
+
+.feedback p {
+    /* trabalhando txt */
+
+    color: white;
+    font-size: 19px;
+    font-weight: bold;
+    padding: 15px;
+    font-family: 'Saira Condensed', sans-serif;
+
+}
+
+
+/* inicio da terceira sessão */
+
+
+.sessao-03 {
+    margin-top: 100px;
+    text-align: center;
+
+
+}
+
+.sessao-03 div {
+
+    display: inline-block;
+    position: relative;
+    margin: 15px;
+    width: 26%;
+    height: 300px;
+
+}
+
+.produto1 {
+    /* img do produto 1  */
+    background-image: url(../img/CloudM.png);
+    background-repeat: no-repeat;
+    background-color: #FF6B1A;
+    text-align: center;
+    background-size: contain;
+    border-radius: 10px;
+
+}
+
+.produto1 h4 {
+    /* texto do produto 1  */
+
+    position: relative;
+    top: 200px;
+    text-align: center;
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+}
+
+
+
+
+.produto2 {
+    /* img do produto 2 */
+
+    background-image: url(../img/Ser.png);
+    background-repeat: no-repeat;
+    background-color: #FF6B1A;
+    text-align: center;
+    background-size: contain;
+    border-radius: 10px;
+
+}
+
+.produto2 h4 {
+    /* texto do produto 2 */
+
+
+    position: relative;
+    top: 200px;
+    text-align: center;
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+
+
+}
+
+.produto3 {
+    /* img produto 3 */
+
+    background-image: url(../img/Processamento.png);
+    background-repeat: no-repeat;
+    background-color: #FF6B1A;
+    text-align: center;
+    background-size: contain;
+    border-radius: 10px;
+
+
+}
+
+
+.produto3 h4 {
+    /* texto do produto 3 */
+
+
+    position: relative;
+    top: 200px;
+    text-align: center;
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+
+}
+
+
+
+/* button de orçamento */
+
+.produto1 [type=submit] {
+    background-color: white;
+    /* cor  */
+    border-radius: 80px;
+    /* raio */
+    width: 85px;
+    height: 25px;
+    cursor: pointer;
+    border-color: royalblue;
+    /* cor da borda */
+    position: absolute;
+    left: 105px;
+    bottom: -18px;
+    top: 250px;
+    text-align: center;
+}
+
+.produto2 [type=submit] {
+    background-color: white;
+    /* cor  */
+    border-radius: 80px;
+    /* raio */
+    width: 85px;
+    height: 25px;
+    cursor: pointer;
+    border-color: royalblue;
+    /* cor da borda */
+    position: absolute;
+    left: 105px;
+    bottom: -18px;
+    top: 250px;
+    text-align: center;
+}
+
+
+.produto3 [type=submit] {
+    background-color: white;
+    /* cor  */
+    border-radius: 80px;
+    /* raio */
+    width: 85px;
+    height: 25px;
+    cursor: pointer;
+    border-color: royalblue;
+    /* cor da borda */
+    position: absolute;
+    left: 105px;
+    bottom: -18px;
+    top: 250px;
+    text-align: center;
+}
+
+/* Inicio quarta sessão */
+
+
+.sessao-04 p {
+    /* texto */
+
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: black
+}
+
+.sessao-04 p span {
+    /* texto */
+
+    color: #FF6B1A;
+
+
+}
+
+
+.sessao-04 {
+    margin-top: 20px;
+    text-align: center;
+
+
+}
+
+.sessao-04 div {
+
+    display: inline-block;
+    position: relative;
+    top: 20px;
+    margin: 15px;
+    width: 200px;
+    height: 100px;
+    background-color: white;
+
+}
+
+
+.parceiro1 {
+    /* img parceiro 1 */
+
+    background-image: url(../img/google.png);
+    background-repeat: no-repeat;
+    background-color: #FF6B1A;
+    text-align: center;
+    background-size: contain;
+    border-radius: 10px;
+}
+
+.parceiro2 {
+    /* img parceiro 2 */
+
+    background-image: url(../img/Amazon.png);
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size: contain;
+    border-radius: 10px;
+
+}
+
+.parceiro3 {
+    /* img parceiro 3 */
+
+    background-image: url(../img/Azure.png);
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size: contain;
+    border-radius: 10px;
+}
+
+.parceiro4 {
+    /* img parceiro 4 */
+    background-image: url(../img/Intel.png);
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size: contain;
+    border-radius: 10px;
+    width: 160px;
+    height: 45px;
+
+}
+
+/* Inicio da pagina de produtos */
+
+
+.headerPROD {
+
+    background-image: url(../img/EletronicoCapa.png);
+    background-size: cover;
+    background-position: center;
+    min-height: 150px
+        /* tamanho minimo da imagem independente do dispositivo */
+    ;
+    padding: 30px;
+
+
+}
+
+/* Inicio da primeira tela de produtos  */
+
+.sessao-03PROD {
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    padding-top: 30px;
+
+
+}
+
+.sessao-03PROD div {
+
+    display: inline-block;
+    position: relative;
+    margin: 15px;
+    width: 26%;
+    height: 300px;
+
+}
+
+.produto1PROD {
+    /* img do produto 1  */
+    background-image: url(../img/CloudM.png);
+    background-repeat: no-repeat;
+    background-color: royalblue;
+    text-align: center;
+    background-size: contain;
+    border-radius: 10px;
+
+}
+
+.produto1PROD h4 {
+    /* texto do produto 1  */
+
+    position: relative;
+    top: 200px;
+    text-align: center;
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+}
+
+
+
+
+.produto2PROD {
+    /* img do produto 2 */
+
+    background-image: url(../img/Suporte.png);
+    background-repeat: no-repeat;
+    background-color: royalblue;
+    text-align: center;
+    background-size: contain;
+    border-radius: 10px;
+
+}
+
+.produto2PROD h4 {
+    /* texto do produto 2 */
+
+
+    position: relative;
+    top: 200px;
+    text-align: center;
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+
+
+}
+
+.produto3PROD {
+    /* img produto 3 */
+
+    background-image: url(../img/man.png);
+    background-repeat: no-repeat;
+    background-color: royalblue;
+    text-align: center;
+    background-size: contain;
+    border-radius: 10px;
+
+
+}
+
+
+.produto3PROD h4 {
+    /* texto do produto 3 */
+
+
+    position: relative;
+    top: 200px;
+    text-align: center;
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+
+}
+
+
+.produto4PROD {
+    /* img do produto 4 */
+    background-image: url(../img/consult.png);
+    background-repeat: no-repeat;
+    background-color: royalblue;
+    text-align: center;
+    background-size: contain;
+    border-radius: 10px;
+
+}
+
+.produto4PROD h4 {
+    /* texto do produto 4 */
+
+    position: relative;
+    top: 200px;
+    text-align: center;
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+}
+
+
+
+
+.produto5PROD {
+    /* img do produto 5 */
+
+    background-image: url(../img/treina.png);
+    background-repeat: no-repeat;
+    background-color: royalblue;
+    text-align: center;
+    background-size: contain;
+    border-radius: 10px;
+
+}
+
+.produto5PROD h4 {
+    /* texto do produto 5 */
+
+
+    position: relative;
+    top: 200px;
+    text-align: center;
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+
+
+}
+
+.produto6PROD {
+    /* img produto 6 */
+
+    background-image: url(../img/Anali.png);
+    background-repeat: no-repeat;
+    background-color: royalblue;
+    text-align: center;
+    background-size: contain;
+    border-radius: 10px;
+
+
+}
+
+
+.produto6PROD h4 {
+    /* texto do produto 6 */
+
+
+    position: relative;
+    top: 200px;
+    text-align: center;
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+
+}
+
+
+/* button de ver mais */
+
+.produto1PROD [type=submit] {
+    background-color: white;
+    /* cor  */
+    border-radius: 80px;
+    /* raio */
+    width: 85px;
+    height: 25px;
+    cursor: pointer;
+    border-color: royalblue;
+    /* cor da borda */
+    position: absolute;
+    left: 127px;
+    bottom: -18px;
+    top: 250px;
+    text-align: center;
+}
+
+.produto2PROD [type=submit] {
+    background-color: white;
+    /* cor  */
+    border-radius: 80px;
+    /* raio */
+    width: 85px;
+    height: 25px;
+    cursor: pointer;
+    border-color: royalblue;
+    /* cor da borda */
+    position: absolute;
+    left: 127px;
+    bottom: -18px;
+    top: 250px;
+    text-align: center;
+}
+
+
+.produto3PROD [type=submit] {
+    background-color: white;
+    /* cor  */
+    border-radius: 80px;
+    /* raio */
+    width: 85px;
+    height: 25px;
+    cursor: pointer;
+    border-color: royalblue;
+    /* cor da borda */
+    position: absolute;
+    left: 127px;
+    bottom: -18px;
+    top: 250px;
+    text-align: center;
+}
+
+.produto4PROD [type=submit] {
+    background-color: white;
+    /* cor  */
+    border-radius: 80px;
+    /* raio */
+    width: 85px;
+    height: 25px;
+    cursor: pointer;
+    border-color: royalblue;
+    /* cor da borda */
+    position: absolute;
+    left: 127px;
+    bottom: -18px;
+    top: 250px;
+    text-align: center;
+}
+
+.produto5PROD [type=submit] {
+    background-color: white;
+    /* cor  */
+    border-radius: 80px;
+    /* raio */
+    width: 85px;
+    height: 25px;
+    cursor: pointer;
+    border-color: royalblue;
+    /* cor da borda */
+    position: absolute;
+    left: 127px;
+    bottom: -18px;
+    top: 250px;
+    text-align: center;
+}
+
+
+.produto6PROD [type=submit] {
+    background-color: white;
+    /* cor  */
+    border-radius: 80px;
+    /* raio */
+    width: 85px;
+    height: 25px;
+    cursor: pointer;
+    border-color: royalblue;
+    /* cor da borda */
+    position: absolute;
+    left: 127px;
+    bottom: -18px;
+    top: 250px;
+    text-align: center;
+}
+
+/* fim do button PROD */
+
+/* inicio da segunda tela Local Server */
+
+
+
+.sessao-03LOCAL {
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    padding-top: 30px;
+
+
+}
+
+.sessao-03LOCAL div {
+
+    display: inline-block;
+    position: relative;
+    margin: 15px;
+    width: 26%;
+    height: 300px;
+
+}
+
+.produto1LOCAL {
+    /* img do produto 1  */
+    background-image: url(../img/Ser.png);
+    background-repeat: no-repeat;
+    background-color: royalblue;
+    text-align: center;
+    background-size: contain;
+    border-radius: 10px;
+
+}
+
+.produto1LOCAL h4 {
+    /* texto do produto 1  */
+
+    position: relative;
+    top: 200px;
+    text-align: center;
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+}
+
+
+
+
+.produto2LOCAL {
+    /* img do produto 2 */
+
+    background-image: url(../img/Suporte.png);
+    background-repeat: no-repeat;
+    background-color: royalblue;
+    text-align: center;
+    background-size: contain;
+    border-radius: 10px;
+
+}
+
+.produto2LOCAL h4 {
+    /* texto do produto 2 */
+
+
+    position: relative;
+    top: 200px;
+    text-align: center;
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+
+
+}
+
+.produto3LOCAL {
+    /* img produto 3 */
+
+    background-image: url(../img/rent.png);
+    background-repeat: no-repeat;
+    background-color: royalblue;
+    text-align: center;
+    background-size: contain;
+    border-radius: 10px;
+
+
+}
+
+
+.produto3LOCAL h4 {
+    /* texto do produto 3 */
+
+
+    position: relative;
+    top: 200px;
+    text-align: center;
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+
+}
+
+
+.produto4LOCAL {
+    /* img do produto 4 */
+    background-image: url(../img/consult.png);
+    background-repeat: no-repeat;
+    background-color: royalblue;
+    text-align: center;
+    background-size: contain;
+    border-radius: 10px;
+
+}
+
+.produto4LOCAL h4 {
+    /* texto do produto 4 */
+
+    position: relative;
+    top: 200px;
+    text-align: center;
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+}
+
+
+
+
+.produto5LOCAL {
+    /* img do produto 5 */
+
+    background-image: url(../img/Cyber.png);
+    background-repeat: no-repeat;
+    background-color: royalblue;
+    text-align: center;
+    background-size: contain;
+    border-radius: 10px;
+
+}
+
+.produto5LOCAL h4 {
+    /* texto do produto 5 */
+
+
+    position: relative;
+    top: 200px;
+    text-align: center;
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+
+
+}
+
+.produto6LOCAL {
+    /* img produto 6 */
+
+    background-image: url(../img/Anali.png);
+    background-repeat: no-repeat;
+    background-color: royalblue;
+    text-align: center;
+    background-size: contain;
+    border-radius: 10px;
+
+
+}
+
+
+.produto6LOCAL h4 {
+    /* texto do produto 6 */
+
+
+    position: relative;
+    top: 200px;
+    text-align: center;
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+
+}
+
+
+/* button de ver mais */
+
+.produto1LOCAL [type=submit] {
+    background-color: white;
+    /* cor  */
+    border-radius: 80px;
+    /* raio */
+    width: 85px;
+    height: 25px;
+    cursor: pointer;
+    border-color: royalblue;
+    /* cor da borda */
+    position: absolute;
+    left: 127px;
+    bottom: -18px;
+    top: 250px;
+    text-align: center;
+}
+
+.produto2LOCAL [type=submit] {
+    background-color: white;
+    /* cor  */
+    border-radius: 80px;
+    /* raio */
+    width: 85px;
+    height: 25px;
+    cursor: pointer;
+    border-color: royalblue;
+    /* cor da borda */
+    position: absolute;
+    left: 127px;
+    bottom: -18px;
+    top: 250px;
+    text-align: center;
+}
+
+
+.produto3LOCAL [type=submit] {
+    background-color: white;
+    /* cor  */
+    border-radius: 80px;
+    /* raio */
+    width: 85px;
+    height: 25px;
+    cursor: pointer;
+    border-color: royalblue;
+    /* cor da borda */
+    position: absolute;
+    left: 127px;
+    bottom: -18px;
+    top: 250px;
+    text-align: center;
+}
+
+.produto4LOCAL [type=submit] {
+    background-color: white;
+    /* cor  */
+    border-radius: 80px;
+    /* raio */
+    width: 85px;
+    height: 25px;
+    cursor: pointer;
+    border-color: royalblue;
+    /* cor da borda */
+    position: absolute;
+    left: 127px;
+    bottom: -18px;
+    top: 250px;
+    text-align: center;
+}
+
+.produto5LOCAL [type=submit] {
+    background-color: white;
+    /* cor  */
+    border-radius: 80px;
+    /* raio */
+    width: 85px;
+    height: 25px;
+    cursor: pointer;
+    border-color: royalblue;
+    /* cor da borda */
+    position: absolute;
+    left: 127px;
+    bottom: -18px;
+    top: 250px;
+    text-align: center;
+}
+
+
+.produto6LOCAL [type=submit] {
+    background-color: white;
+    /* cor  */
+    border-radius: 80px;
+    /* raio */
+    width: 85px;
+    height: 25px;
+    cursor: pointer;
+    border-color: royalblue;
+    /* cor da borda */
+    position: absolute;
+    left: 127px;
+    bottom: -18px;
+    top: 250px;
+    text-align: center;
+}
+
+/* inicio da TERCEIRA tela Local DATA */
+
+
+
+.sessao-03DATA {
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    padding-top: 30px;
+
+
+}
+
+.sessao-03DATA div {
+
+    display: inline-block;
+    position: relative;
+    margin: 15px;
+    width: 26%;
+    height: 300px;
+
+}
+
+.produto1DATA {
+    /* img do produto 1  */
+    background-image: url(../img/inteligent.png);
+    background-repeat: no-repeat;
+    background-color: royalblue;
+    text-align: center;
+    background-size: contain;
+    border-radius: 10px;
+
+}
+
+.produto1DATA h4 {
+    /* texto do produto 1  */
+
+    position: relative;
+    top: 200px;
+    text-align: center;
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+}
+
+
+
+
+.produto2DATA {
+    /* img do produto 2 */
+
+    background-image: url(../img/Suporte.png);
+    background-repeat: no-repeat;
+    background-color: royalblue;
+    text-align: center;
+    background-size: contain;
+    border-radius: 10px;
+
+}
+
+.produto2DATA h4 {
+    /* texto do produto 2 */
+
+
+    position: relative;
+    top: 200px;
+    text-align: center;
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+
+
+}
+
+.produto3DATA {
+    /* img produto 3 */
+
+    background-image: url(../img/DataMan.png);
+    background-repeat: no-repeat;
+    background-color: royalblue;
+    text-align: center;
+    background-size: contain;
+    border-radius: 10px;
+
+
+}
+
+
+.produto3DATA h4 {
+    /* texto do produto 3 */
+
+
+    position: relative;
+    top: 200px;
+    text-align: center;
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+
+}
+
+
+.produto4DATA {
+    /* img do produto 4 */
+    background-image: url(../img/dataum.png);
+    background-repeat: no-repeat;
+    background-color: royalblue;
+    text-align: center;
+    background-size: contain;
+    border-radius: 10px;
+
+}
+
+.produto4DATA h4 {
+    /* texto do produto 4 */
+
+    position: relative;
+    top: 200px;
+    text-align: center;
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+}
+
+
+
+
+.produto5DATA {
+    /* img do produto 5 */
+
+    background-image: url(../img/consult.png);
+    background-repeat: no-repeat;
+    background-color: royalblue;
+    text-align: center;
+    background-size: contain;
+    border-radius: 10px;
+
+}
+
+.produto5DATA h4 {
+    /* texto do produto 5 */
+
+
+    position: relative;
+    top: 200px;
+    text-align: center;
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+
+
+}
+
+.produto6DATA {
+    /* img produto 6 */
+
+    background-image: url(../img/Anali.png);
+    background-repeat: no-repeat;
+    background-color: royalblue;
+    text-align: center;
+    background-size: contain;
+    border-radius: 10px;
+
+
+}
+
+
+.produto6DATA h4 {
+    /* texto do produto 6 */
+
+
+    position: relative;
+    top: 200px;
+    text-align: center;
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+
+}
+
+
+/* button de ver mais */
+
+.produto1DATA [type=submit] {
+    background-color: white;
+    /* cor  */
+    border-radius: 80px;
+    /* raio */
+    width: 85px;
+    height: 25px;
+    cursor: pointer;
+    border-color: royalblue;
+    /* cor da borda */
+    position: absolute;
+    left: 127px;
+    bottom: -18px;
+    top: 250px;
+    text-align: center;
+}
+
+.produto2DATA [type=submit] {
+    background-color: white;
+    /* cor  */
+    border-radius: 80px;
+    /* raio */
+    width: 85px;
+    height: 25px;
+    cursor: pointer;
+    border-color: royalblue;
+    /* cor da borda */
+    position: absolute;
+    left: 127px;
+    bottom: -18px;
+    top: 250px;
+    text-align: center;
+}
+
+
+.produto3DATA [type=submit] {
+    background-color: white;
+    /* cor  */
+    border-radius: 80px;
+    /* raio */
+    width: 85px;
+    height: 25px;
+    cursor: pointer;
+    border-color: royalblue;
+    /* cor da borda */
+    position: absolute;
+    left: 127px;
+    bottom: -18px;
+    top: 250px;
+    text-align: center;
+}
+
+.produto4DATA [type=submit] {
+    background-color: white;
+    /* cor  */
+    border-radius: 80px;
+    /* raio */
+    width: 85px;
+    height: 25px;
+    cursor: pointer;
+    border-color: royalblue;
+    /* cor da borda */
+    position: absolute;
+    left: 127px;
+    bottom: -18px;
+    top: 250px;
+    text-align: center;
+}
+
+.produto5DATA [type=submit] {
+    background-color: white;
+    /* cor  */
+    border-radius: 80px;
+    /* raio */
+    width: 85px;
+    height: 25px;
+    cursor: pointer;
+    border-color: royalblue;
+    /* cor da borda */
+    position: absolute;
+    left: 127px;
+    bottom: -18px;
+    top: 250px;
+    text-align: center;
+}
+
+
+.produto6DATA [type=submit] {
+    background-color: white;
+    /* cor  */
+    border-radius: 80px;
+    /* raio */
+    width: 85px;
+    height: 25px;
+    cursor: pointer;
+    border-color: royalblue;
+    /* cor da borda */
+    position: absolute;
+    left: 127px;
+    bottom: -18px;
+    top: 250px;
+    text-align: center;
+}
+
+footer {    /* estilizando footer */
+
+    background-color: royalblue;
+    color: white;
+    position: relative;
+    top: 700px;
+    text-align: center;
+
+}
+
+
+.footer-div {
+
+    height: 60px;
+
+
+}
+
+.footer-div h4{
+
+   padding: 50px;
+
+}
+
+/* -------------- inicio versão mobile responsiva -------------------- */
+
+nav.mobile{
+
+    display: none;  /* para não aparecer */
+    float: right;
+
+
+}
+
+nav.mobile ul{
+
+    position: absolute;
+    width: 100%;
+    background-color: royalblue;
+    left: 0; /* remove o espaço a esquerda */
+    top: 0; /* remove o espaço a cima */
+    text-align: center;
+    padding: 50px 0 30px 0;
+    display: none;
+
+}
+
+nav.mobile a{
+
+    text-decoration: none;
+    color: white;
+    float: right;
+
+
+
+}
+
+nav.mobile i {
+
+    position: relative;
+    z-index: 2;
+    color: #FF6B1A;
+}
+
+
+
+
+@media screen and (max-width: 1024px){ /* como se fosse um if, nessa medida o mobile aparece*/
+
+    nav.desktop {
+
+        display: none; /* desativa */
+
+    }
+
+    nav.mobile {
+
+        display: block;
+    }
+
+    div.chamada-mkt  {
+
+        position: relative;
+        text-align: center;
+        margin: 0 auto;
+            
+        }
+
+    div.chamada-mkt input[type=submit] {
+
+        position: relative;
+        text-align: center;
+        margin: 0 auto;
+        display: block;
+        left: 0;
+
+    }
+
+    .desc-produto {
+
+        width: 100%;
+        margin: 0 ;
+
+    }
+
+    section.sessao-01 img {
+
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+        float: none;
+
+
+    }
+
+    .feedback {
+
+        position: absolute;
+        margin: 0 auto;
+        left: 50%;
+        top: 50%;
+        bottom: auto;
+        transform: translate(-50%, -50%);  /* colocar no centro */
+        width: 80%;
+
+    }
+
+    .sessao-03 {
+        margin-top: 100px;
+        text-align: center;
+    
+    
+    }
+
+    .sessao-03 div {
+
+        position: relative;
+        margin: 15px;
+        width: 40%;
+        height: 300px;
+        display: inherit;
+        left: 290px;
+        top: -53px;
+    
+    }
+
+    .produto1 {
+        /* img do produto 1  */
+        background-image: url(../img/CloudM.png);
+        background-repeat: no-repeat;
+        background-color: #FF6B1A;
+        text-align: center;
+        background-size: contain;
+        border-radius: 10px;
+    
+    }
+    
+    .produto1 h4 {
+        /* texto do produto 1  */
+    
+        position: relative;
+        top: 215px;
+        text-align: center;
+        font-family: 'Saira Condensed', sans-serif;
+        font-size: 22px;
+        font-weight: bold;
+        color: white;
+    }
+
+
+    .produto1 [type=submit] {
+        background-color: white;
+        /* cor  */
+        border-radius: 80px;
+        /* raio */
+        width: 85px;
+        height: 25px;
+        cursor: pointer;
+        border-color: royalblue;
+        /* cor da borda */
+        position: absolute;
+        left: 127px;
+        bottom: -18px;
+        top: 250px;
+        text-align: center;
+        left: 156px;
+        top: 257px;
+    
+    }
+
+    /* inicio segundo prod */
+
+    .produto2 {
+        /* img do produto 1  */
+        background-image: url(../img/Ser.png);
+        background-repeat: no-repeat;
+        background-color: #FF6B1A;
+        text-align: center;
+        background-size: contain;
+        border-radius: 10px;
+    
+    }
+    
+    .produto2 h4 {
+        /* texto do produto 1  */
+    
+        position: relative;
+        top: 215px;
+        text-align: center;
+        font-family: 'Saira Condensed', sans-serif;
+        font-size: 22px;
+        font-weight: bold;
+        color: white;
+    }
+
+
+    .produto2 [type=submit] {
+        background-color: white;
+        /* cor  */
+        border-radius: 80px;
+        /* raio */
+        width: 85px;
+        height: 25px;
+        cursor: pointer;
+        border-color: royalblue;
+        /* cor da borda */
+        position: absolute;
+        left: 127px;
+        bottom: -18px;
+        top: 250px;
+        text-align: center;
+        left: 156px;
+        top: 257px;
+    
+    }
+    
+    /* inicio terceiro prod */
+
+    
+    .produto3 {
+        /* img do produto 1  */
+        background-image: url(../img/Processamento.png);
+        background-repeat: no-repeat;
+        background-color: #FF6B1A;
+        text-align: center;
+        background-size: contain;
+        border-radius: 10px;
+    
+    }
+    
+    .produto3 h4 {
+        /* texto do produto 1  */
+    
+        position: relative;
+        top: 215px;
+        text-align: center;
+        font-family: 'Saira Condensed', sans-serif;
+        font-size: 22px;
+        font-weight: bold;
+        color: white;
+    }
+
+
+    .produto3 [type=submit] {
+        background-color: white;
+        /* cor  */
+        border-radius: 80px;
+        /* raio */
+        width: 85px;
+        height: 25px;
+        cursor: pointer;
+        border-color: royalblue;
+        /* cor da borda */
+        position: absolute;
+        left: 127px;
+        bottom: -18px;
+        top: 250px;
+        text-align: center;
+        left: 156px;
+        top: 257px;
+    
+    }
+
+    /* parceiros */
+ 
+    .sessao-04 {
+        margin-top: 20px;
+        text-align: center;
+    
+    
+    }
+    
+    .sessao-04 div {
+    
+        display: inline-block;
+        position: relative;
+        top: 20px;
+        margin: 15px;
+        width: 183px; /* largura */
+        height: 100px;
+        background-color: white;
+        left: -30px;
+    
+    }
+
+    .sessao-04 p {
+        /* texto */
+    
+        margin-top: -32px;
+        text-align: center;
+        font-family: 'Saira Condensed', sans-serif;
+        font-size: 22px;
+        font-weight: bold;
+        color: black
+    }
+
+ 
+ 
+
+}
+    
+
